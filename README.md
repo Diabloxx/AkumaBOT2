@@ -1,4 +1,5 @@
-# sempaibot
+# AkumaBOT (USING SEMPAIBOT CODE https://github.com/thememesquad/sempaibot)
+# it does the same thing, but instead of connecting to osu! it connects to ripple!
 A fun, modular discord bot for osu! and other things! :> 
 
 # General functionality
@@ -10,12 +11,6 @@ A fun, modular discord bot for osu! and other things! :>
 # osu! module functionality
 - Track and announce when one of your friends/follows achieves a top score!
 - Show profile information
-
-# How to use
-Easy! Add the bot to your discord server by [clicking  here!](https://discordapp.com/oauth2/authorize?client_id=182114190364901377&scope=bot&permissions=103992320)
-
-# Suggestions / support
-Require help? Encountered a bug? Have a cool feature idea? Or just wanna hang out? [Join our Discord server!](https://discord.gg/011LAjb1kyzCD0BY5)
 
 # Node Modules
 This Bot uses the following Modules:
@@ -32,4 +27,4 @@ This Bot uses the following Modules:
 - [node-tldr](https://github.com/philpl/node-tldr)
 
 # License
-SempaiBot is licensed under the [General Public License Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+SempaiBot (AkumaBOT) is licensed under the [General Public License Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
