@@ -1,12 +1,12 @@
 {
-  "name": "sempaibot",
-  "description": "sempaibot",
+  "name": "akumanot",
+  "description": "akumabot based on sempaibot",
   "version": "0.1.0",
   "license": "GPL-3.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/RukiaXi/sempaibot.git"
+    "url": "https://github.com/Diabloxx/AkumaBOT2.git"
   },
   "dependencies": {
     "app-root-path": "^1.0.0",
