@@ -28,4 +28,4 @@ This Bot uses the following Modules:
 
 # License
 SempaiBot (AkumaBOT) is licensed under the [General Public License Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
-All creadits go to the devs of sempaibot for the code and help for making this support ripple. I couldnt do this without them!
+All creadits go to the devs of sempaibot for the code and help for making this support ripple. I couldnt do this without them!.
