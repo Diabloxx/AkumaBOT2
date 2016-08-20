@@ -8,3 +8,5 @@
 /data/configkeyvalues.db
 /data/osuusers.db
 /coverage
+
+data/users.db
