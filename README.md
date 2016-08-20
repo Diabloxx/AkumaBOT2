@@ -1,5 +1,7 @@
-# AkumaBOT (USING SEMPAIBOT CODE https://github.com/thememesquad/sempaibot)
-# it does the same thing, but instead of connecting to osu! it connects to ripple!
+# AkumaBOT 
+- USING SEMPAIBOT CODE [SenpaiBot Github](https://github.com/thememesquad/sempaibot)
+ 
+- it does the same thing, but instead of connecting to osu! it connects to ripple!
 A fun, modular discord bot for osu! and other things! :> 
 
 # General functionality
