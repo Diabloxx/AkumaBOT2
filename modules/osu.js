@@ -75,7 +75,7 @@ class OsuBancho
             for(var i = 0;i<lines.length;i++)
             {
                 var line = lines[i];
-                if(line.indexOf(":irc.ripple.moe") != -1)
+                if(line.indexOf(":cho.ppy.sh") != -1)
                 {
                     var idx1 = line.indexOf(" ");
                     var idx2 = line.indexOf(" ", idx1 + 1);
@@ -254,7 +254,7 @@ class OsuModule extends IModule
                 
                 return null;
             },
-            sample: "sempai who are you following?",
+            sample: "akuma who are you following?",
             description: "Lists all the people I'm following on osu!",
             permission: null,
             global: false,
@@ -286,7 +286,7 @@ class OsuModule extends IModule
                 
                 return null;
             },
-            sample: "sempai follow __*osu! username or id*__",
+            sample: "akuma follow __*osu! username or id*__",
             description: "Adds the specified person to my following list for osu!",
             permission: "OSU_FOLLOW",
             global: false,
@@ -318,7 +318,7 @@ class OsuModule extends IModule
                 
                 return null;
             },
-            sample: "sempai stop following __*osu! username or id*__",
+            sample: "akuma stop following __*osu! username or id*__",
             description: "Removes the specified person from my following list for osu!",
             permission: "OSU_UNFOLLOW",
             global: false,
@@ -340,8 +340,8 @@ class OsuModule extends IModule
                 
                 return [tmp]; 
             },
-            sample: "sempai check __*osu! username or id*__",
-            description: "Forces Sempai to check the specified person for scores that Sempai may have somehow missed.",
+            sample: "akuma check __*osu! username or id*__",
+            description: "Forces akuma to check the specified person for scores that akuma may have somehow missed.",
             permission: "OSU_CHECK",
             global: false,
 
@@ -649,7 +649,7 @@ class OsuModule extends IModule
         }*/
 
         var endDate = new Date(); //should already be there
-		endDate = new Date(endDate.valueOf() + endDate.getTimezoneOffset() * 20000 - 1 * 60 * 1000);
+		endDate = new Date(endDate.valueOf() + (60 * 1000));
 
         var _this = this;
         var topRank;
@@ -684,7 +684,7 @@ class OsuModule extends IModule
                 }
 
                 var bdate = new Date(beatmap.date);
-                var date = new Date(bdate.valueOf() + -60 * 2 * 20000);
+                var date = bdate;
 
                 if (date > endDate)
                 {
