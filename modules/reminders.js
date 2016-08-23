@@ -51,7 +51,7 @@ class RemindersModule extends IModule
                     
                 return [];
             },
-            sample: "sempai list reminders",
+            sample: "akuma list reminders",
             description: "Lists all active reminders.",
             permission: null,
             global: false,
@@ -104,7 +104,7 @@ class RemindersModule extends IModule
                 
                 return [name, message, date.ret];
             },
-            sample: "sempai remind __*name*__  to __*reminder message*__  at __*time*__",
+            sample: "akuma remind __*name*__  to __*reminder message*__  at __*time*__",
             description: "Send yourself (or someone else) a reminder at a specified time! Use \"me\" to refer to yourself. The timezone is set to the timezone of your discord server.",
             permission: null,
             global: false,
@@ -119,7 +119,7 @@ class RemindersModule extends IModule
                     
                 return [];
             },
-            sample: "sempai clear reminders",
+            sample: "akuma clear reminders",
             description: "Clears all the reminders for this server.",
             permission: "MANAGE_REMINDERS",
             global: false,
